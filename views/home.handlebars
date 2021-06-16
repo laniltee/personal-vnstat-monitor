@@ -1,0 +1,36 @@
+<div class="container">
+  <!-- Content here -->
+  <h1>VNSTAT Network Interface Usage Monitor</h1>
+  <hr />
+  <div>
+    <!--    <h3>Monthly Usage</h3>-->
+
+  </div>
+  <div>
+    <h3>Daily Usage</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Day</th>
+          <th scope="col">Received</th>
+          <th scope="col">Sent</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Yesterday</th>
+          <td>{{yesterdayReceived}}</td>
+          <td>{{yesterdaySent}}</td>
+          <td>{{yesterdayTotal}}</td>
+        </tr>
+        <tr>
+          <th scope="row">Today</th>
+          <td>{{todayReceived}}</td>
+          <td>{{todaySent}}</td>
+          <td>{{todayTotal}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
