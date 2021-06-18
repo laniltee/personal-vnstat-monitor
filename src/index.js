@@ -26,6 +26,6 @@ app.get("/", async function (req, res) {
   }
 });
 
-app.listen(8083, async () => {
+app.listen(8084, async () => {
   console.log("VNSTAT Monitor Running");
 });
