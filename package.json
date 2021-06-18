@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "prettier": "npx prettier --write .",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "start-server": "pm2 start src/index.js --name vnstat-monitor",
+    "stop-server": "pm2 stop src/index.js --name vnstat-monitor"
   },
   "keywords": [],
   "author": "",

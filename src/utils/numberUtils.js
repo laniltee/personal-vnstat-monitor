@@ -9,11 +9,11 @@ const areMebibytes = (value) => {
 };
 
 const getGibValue = (value) => {
-  return parseInt(value.replace(units.Gib).trim());
+  return parseFloat(value.replace(units.Gib).trim());
 };
 
 const getMibValue = (value) => {
-  return parseInt(value.replace(units.MiB).trim());
+  return parseFloat(value.replace(units.MiB).trim());
 };
 
 const roundOffValue = (value, decimalPlaces = 2) => {
